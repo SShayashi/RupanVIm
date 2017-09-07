@@ -9,3 +9,6 @@ cd RupanVIm/
 cp -r ./rupanSounds ~/
 echo ./vimrc >> ~/.vimrc
 ```
+
+# Require
+Vim versions >= 7.5

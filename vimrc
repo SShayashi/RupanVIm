@@ -1,5 +1,5 @@
 function! PlaySE(name)
-     silent! exec '!afplay ~/.rupan/' . a:name . '.wav &'
+     silent! exec '!afplay ~/rupanSounds/' . a:name . '.wav &'
 endfunction
 
 autocmd! TextChangedI * call PlaySE('keyboard')

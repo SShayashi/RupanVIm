@@ -6,6 +6,6 @@ This is script which makes Rupan sounds whenever you type and save on vim.
 ```
 git clone https://github.com/SShayashi/RupanVIm.git
 cd RupanVIm/
-sh setup.sh
+cp ./rupanSounds ~/
 echo ./vimrc >> ~/.vimrc
 ```

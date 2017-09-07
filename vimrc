@@ -1,4 +1,4 @@
-nfunction! PlaySE(name)
+function! PlaySE(name)
      silent! exec '!afplay ~/.rupan/' . a:name . '.wav &'
 endfunction
 
